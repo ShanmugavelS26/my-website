@@ -1314,13 +1314,15 @@ section,
     font-weight:600;
 }
 
-@media (max-width:991px){
+@media (max-width: 991px){
 
     .skill-grid{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
+}
 
-    .skill-category{
-        margin-bottom:50px;
-    }
+@media (max-width: 576px) {
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
 }

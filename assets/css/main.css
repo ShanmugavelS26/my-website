@@ -1273,3 +1273,87 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Skill Section */
+
+.skill-category{
+    margin-bottom:45px;
+}
+
+.skill-category h4{
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:25px;
+    color:#222;
+}
+
+.skill-grid{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+
+}
+
+.skill-box{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    background:#0d1320;
+
+    color:#fff;
+
+    padding:16px 22px;
+
+    border-radius:10px;
+
+    transition:.35s;
+
+    cursor:pointer;
+
+    min-width:220px;
+
+}
+
+.skill-box i{
+
+    font-size:28px;
+
+    color:#4db8ff;
+
+}
+
+.skill-box span{
+
+    font-size:17px;
+
+    font-weight:500;
+
+}
+
+.skill-box:hover{
+
+    transform:translateY(-6px);
+
+    background:#1572E8;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+
+}
+
+.skill-box:hover i{
+
+    color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.skill-box{
+
+    width:100%;
+}
+
+}
